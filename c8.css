@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    
+
+}
+
+ul, ol {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.container {
+    background: url(assets/slika.jpg) no-repeat;
+    width: 430px;
+    height: 430px;
+    border-radius: 10px;
+    background-size: cover;
+    position: relative;
+}
+
+.today-title {
+    color: #c96466;
+}
+
+.date-icon {
+    color: #c96466;
+}
+
+.date{
+    width: 100%;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    bottom: 0;
+    box-sizing: border-box;
+    border: 7px solid #6f8b78;
+}
+
+.date-section.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.date-section.main {
+    margin: 40px 0px 0px 0px;
+}
+
+    .date-section.main .days-letters ul {
+        display: flex;
+        align-items: center;
+        color: #1d2834;
+    } 
+
+        .date-section.main .days-letters ul li {
+            width: calc(100% / 7);
+        } 
+    
+    .date-section.main .days-numbers ul {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        color: #713541;
+        font-weight: bold;
+        
+    } 
+
+        .date-section.main .days-numbers ul li {
+            width: calc(100% / 7);
+         
+        } 
+
+.past {
+    color: #b6b6b6;
+}
+
